@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MAD_23012531065_Practical3</string>
+    <string name="web_url">Web Url:</string>
+    <string name="login">Login:</string>
+    <string name="phone_no">Phone No.:</string>
+    <string name="gallery">Gallery:</string>
+    <string name="camera">Camera:</string>
+    <string name="call_log">Call Log:</string>
+    <string name="alarm">Alarm:</string>
+    <string name="browse">Browse</string>
+    <string name="call">Call</string>
+    <string name="guni_pic">Guni_Pic</string>
+    <string name="register">Register</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="email_id">Email Id</string>
+    <string name="forgot_password">Forgot Password?</string>
+</resources>

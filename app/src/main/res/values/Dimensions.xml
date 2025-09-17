@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="reg_top_margin">20dp</dimen>
+    <dimen name="for_pass">45dp</dimen>
+    <dimen name="for_login">20dp</dimen>
+</resources>
