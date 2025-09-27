@@ -39,17 +39,19 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/webUrlText"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:height="5dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="Name"
+        android:inputType="textUri"
+        android:hint="@string/web_url_hint"
         app:layout_constraintBottom_toBottomOf="@+id/tvWebUrlLabel"
         app:layout_constraintEnd_toStartOf="@+id/btnBrowse"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/tvWebUrlLabel"
-        app:layout_constraintTop_toTopOf="@+id/tvWebUrlLabel" />
+        app:layout_constraintTop_toTopOf="@+id/tvWebUrlLabel"
+        app:layout_constraintVertical_bias="0.478" />
 
     <Button
         android:id="@+id/btnCall"
@@ -183,13 +185,13 @@
         app:layout_constraintTop_toTopOf="@+id/tvLoginLabel" />
 
     <EditText
-        android:id="@+id/editTextText6"
+        android:id="@+id/phoneNumber"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:height="5dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="Number"
+        android:inputType="phone"
+        android:hint="@string/phone_number_hint"
         app:layout_constraintBottom_toBottomOf="@+id/tvPhoneLabel"
         app:layout_constraintEnd_toStartOf="@+id/btnCall"
         app:layout_constraintStart_toEndOf="@+id/tvPhoneLabel"
@@ -199,7 +201,6 @@
         android:id="@+id/btnGallery"
         android:layout_width="100dp"
         android:layout_height="48dp"
-
         android:text="Gallery"
         android:textColor="@android:color/white"
         android:textSize="14sp"
@@ -207,17 +208,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/tvGalleryLabel"
         app:layout_constraintEnd_toEndOf="@+id/btnCallLog"
         app:layout_constraintTop_toTopOf="@+id/tvGalleryLabel" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
-        android:text="Next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"

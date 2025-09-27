@@ -15,4 +15,15 @@
     <string name="sign_up">SIGN UP</string>
     <string name="email_id">Email Id</string>
     <string name="forgot_password">Forgot Password?</string>
+    <string name="phone_number">Phone number</string>
+    <string name="login_text">LOGIN</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_text">Email</string>
+    <string name="user_full_name_text">User Full Name</string>
+    <string name="phone_number_text">Phone Number</string>
+    <string name="city_text">City</string>
+    <string name="password_text">Password</string>
+    <string name="haveAcc_text">Already have an account?</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="web_url_hint">Web URL</string>
 </resources>
