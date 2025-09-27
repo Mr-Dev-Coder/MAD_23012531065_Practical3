@@ -10,6 +10,7 @@ import android.content.Intent
 import android.widget.Button
 import android.widget.EditText
 import androidx.core.net.toUri
+import android.provider.CallLog
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -59,6 +60,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btnAlarm).setOnClickListener {
             val alarmIntent = Intent(android.provider.AlarmClock.ACTION_SHOW_ALARMS)
             startActivity(alarmIntent)
+        }
+
+        findViewById<Button>(R.id.btnCallLog).setOnClickListener {
+            val callLogIntent = Intent(Intent.ACTION_VIEW)
+            callLogIntent.type = CallLog.Calls.CONTENT_TYPE
+            startActivity(callLogIntent)
         }
     }
     
